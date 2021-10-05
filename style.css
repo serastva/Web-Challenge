@@ -1,0 +1,163 @@
+/* Body */
+body {
+    background-image: url("https://www.hdwallpaper.nu/wp-content/uploads/2017/03/grey-7.jpg");
+    height: 850px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/* -----------------------Navbar------------------------------- */
+.navbar {
+    max-height: 60px;
+  }
+  .navigation .navbar-brand {
+    color: rgb(231, 230, 230);
+    margin-left: 0px;
+    padding: inherit;
+    font-weight: bold;
+    background-color: rgb(236, 245, 240);
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .navbar {
+    background-color: rgb(182, 178, 178);
+    font-size: 25px; 
+  }
+
+
+  .active, .dropdown-menu .dropdown-item:active a:hover {
+    background-color: rgb(158, 157, 157) !important;
+  }
+  
+  /* Drop Down menu text color*/
+  .dropdown-item {
+    color: #000000 !important;
+  }
+
+
+  /* Button highlight color change main bar*/
+  .nav-link:hover {
+    background-color:#dfdfdf !important;
+   }
+
+
+  /* Button highlight color change drop down menu*/
+  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #e2e4e2 !important;
+  }
+  
+ .navbar-brand:hover {
+  color: #ffffff !important;
+  }
+  
+  a {
+    color: #E7E7E7;
+    font-size: 15px;
+  }
+
+/* -----------------------Image------------------------------- */
+
+img{
+  width:100% !important;
+  height:100% !important;
+  
+}
+.active, .panel:hover {
+  border-color:#8e9092;
+  border-style: solid;
+  
+}
+.vizualization {
+  width:60% !important;
+  height:60% !important;
+}
+
+
+/* -----------------------Paragraph------------------------------- */
+p{
+ color: #ffffff;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 15px; 
+}
+
+/* -----------------------Box------------------------------- */
+.box {
+  margin-top: 10px; 
+  margin-bottom: 10px; 
+  padding: 10px 20px 15px; 
+  
+}
+
+
+  /* -----------------------Title------------------------------- */
+  .title{
+    color:rgb(255, 248, 248);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+
+ /* -----------------------Footer------------------------------- */
+footer {
+  
+  background-color: rgb(73, 73, 73);
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: #000000;
+  color: rgb(0, 0, 0);
+  min-height: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 15px;
+}
+
+/* -----------------------HR------------------------------- */
+
+hr {
+background-color: #dfdfdf;
+
+}
+
+
+.box {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  padding: 10px 20px 10px;
+  background-color: rgb(73, 73, 73);
+}
+
+hr4 {
+color:#ffffff
+
+}
+
+
+/* ----------------------- Media ------------------------------- */
+@media(max-width: 992px) {
+  .navbar-expand-lg {
+  background-color: #213159 !important;
+  }
+  .navbar {
+    max-height: none;
+    padding: inherit;
+  }
+  .navbar div {
+    margin: inherit;
+    background-color: white;
+  }
+  .navbar-brand {
+    padding: 10px !important;
+  }
+  button{
+    margin-right: 30px;
+  }
+  button:focus {
+    outline: 1px dotted;
+    outline: auto 5px;
+  }
+}
